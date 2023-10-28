@@ -54,8 +54,9 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
-    active_storage_base64 (2.0.0)
-      rails (>= 7.0)
+    active_storage_base64 (3.0.0)
+      activestorage (> 7.0)
+      activesupport (> 7.0)
     activeadmin (3.1.0)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (>= 3.1)
@@ -376,7 +377,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
-    rake (13.0.6)
+    rake (13.1.0)
     ransack (4.1.0)
       activerecord (>= 6.1.5)
       activesupport (>= 6.1.5)
@@ -514,7 +515,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_storage_base64 (~> 2.0.0)
+  active_storage_base64 (~> 3.0.0)
   activeadmin (~> 3.0)
   annotate (~> 3.2, >= 3.0.3)
   arctic_admin (~> 4.2.6)
